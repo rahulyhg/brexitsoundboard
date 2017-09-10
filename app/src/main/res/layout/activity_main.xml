@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_centerHorizontal="false"
+    android:layout_centerInParent="false"
+    android:layout_centerVertical="false"
+    android:layout_gravity="center_vertical|center_horizontal"
     android:layout_margin="0dp"
     android:layout_marginBottom="0dp"
     android:layout_marginEnd="0dp"
@@ -13,66 +17,76 @@
     android:layout_marginTop="0dp"
     tools:context="na.brexitsoundboard.MainActivity">
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clipToPadding="true"
-        android:fillViewport="true"
-        android:scrollbarStyle="outsideInset"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <ScrollView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:clipToPadding="true"
+            android:fillViewport="true"
+            android:scrollbarStyle="outsideInset"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
 
-            <ImageButton
-                android:id="@+id/imageButtonBoris"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/button_boris"
-                app:srcCompat="@drawable/boris"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="8dp" />
+                android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/imageButtonLiam"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/button_liam"
-                app:srcCompat="@drawable/liam" />
+                <ImageButton
+                    android:id="@+id/imageButtonBoris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/button_boris"
+                    app:srcCompat="@drawable/boris"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp" />
 
-            <ImageButton
-                android:id="@+id/imageButtonDavid"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/button_david"
-                app:srcCompat="@drawable/david" />
+                <ImageButton
+                    android:id="@+id/imageButtonLiam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/button_liam"
+                    app:srcCompat="@drawable/liam" />
 
-            <ImageButton
-                android:id="@+id/imageButtonTheresa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/button_theresa"
-                app:srcCompat="@drawable/theresa" />
+                <ImageButton
+                    android:id="@+id/imageButtonDavid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/button_david"
+                    app:srcCompat="@drawable/david" />
 
-            <ImageButton
-                android:id="@+id/imageButtonSugguestionBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/button_sugguestion_box"
-                app:srcCompat="@drawable/sugguestionbox"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="237dp" />
+                <ImageButton
+                    android:id="@+id/imageButtonTheresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/button_theresa"
+                    app:srcCompat="@drawable/theresa" />
 
-        </LinearLayout>
-    </ScrollView>
+                <ImageButton
+                    android:id="@+id/imageButtonSugguestionBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/button_sugguestion_box"
+                    app:srcCompat="@drawable/sugguestionbox"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="237dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

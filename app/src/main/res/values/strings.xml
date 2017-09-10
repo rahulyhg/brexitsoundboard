@@ -1,12 +1,37 @@
 <resources>
     <string name="app_name">Brexit Soundboard</string>
+
     <string name="button_boris">Boris</string>
     <string name="button_liam">Liam</string>
     <string name="button_david">David</string>
     <string name="button_theresa">Theresa</string>
     <string name="button_sugguestion_box">Sugguestion Box</string>
-    <string name="title_activity_boris">BorisActivity</string>
-    <string name="title_activity_liam">LiamActivity</string>
-    <string name="title_activity_david">DavidActivity</string>
-    <string name="title_activity_theresa">TheresaActivity</string>
+
+    <string name="title_activity_boris">Boris Johnson</string>
+    <string name="title_activity_liam">Liam Fox</string>
+    <string name="title_activity_david">David Davis</string>
+    <string name="title_activity_theresa">Theresa May</string>
+
+    <string name="button_boris_350MillionPoundsAWeek">350 Million Pounds A Week</string>
+    <string name="button_boris_AllYourOptionsAreGood">All Your Options Are Good</string>
+    <string name="button_boris_CostOfGettingOutVirtuallyNil">Cost Of Getting Out Virtually Nil</string>
+    <string name="button_boris_GoWhistle">Go Whistle</string>
+    <string name="button_boris_HiggeldyPiggeldyNations">Higgeldy Piggeldy Nations</string>
+    <string name="button_boris_MeetOurObligations">Meet Our Obligations</string>
+    <string name="button_boris_PoundIsStable">Pound Is Stable</string>
+    <string name="button_boris_RightsCompletelyProtected">Rights Completely Protected</string>
+    <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
+    <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
+    <string name="button_boris_WinWinForallOfUs">Win Win For All Of Us</string>
+
+    <string name="button_david_ConfidentOfAGoodOutcome">Confident Of A Good Outcome</string>
+    <string name="button_david_FollowUs">Follow Us</string>
+
+    <string name="button_liam_EasiestInHumanHistory">Easiest In Human History</string>
+    <string name="button_liam_WeCantBeBlackmailed">We Can\'t Be Blackmailed</string>
+
+    <string name="button_theresa_BrexitMeansBrexit">Brexit Means Brexit</string>
+    <string name="button_theresa_NoNeedForAnElection">No Need For An Election</string>
+    <string name="button_theresa_RedWhiteAndBlueBrexit">Red White And Blue Brexit</string>
+    <string name="button_theresa_StrongAndStableLeadership">Strong And Stable Leadership</string>
 </resources>

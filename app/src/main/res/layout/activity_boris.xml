@@ -6,11 +6,99 @@
     android:layout_height="match_parent"
     tools:context="na.brexitsoundboard.BorisActivity">
 
-    <Button
-        android:id="@+id/button"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:clipToPadding="true"
+            android:fillViewport="true"
+            android:scrollbarStyle="outsideInset"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button350MillionPoundsAWeek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_350MillionPoundsAWeek"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="67dp" />
+
+                <Button
+                    android:id="@+id/buttonAllYourOptionsAreGood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_AllYourOptionsAreGood" />
+
+                <Button
+                    android:id="@+id/buttonCostOfGettingOutVirtuallyNil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_CostOfGettingOutVirtuallyNil" />
+
+                <Button
+                    android:id="@+id/buttonGoWhistle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_GoWhistle" />
+
+                <Button
+                    android:id="@+id/buttonHiggeldyPiggeldyNations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_HiggeldyPiggeldyNations" />
+
+                <Button
+                    android:id="@+id/buttonMeetOurObligations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_MeetOurObligations" />
+
+                <Button
+                    android:id="@+id/buttonPoundIsStable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_PoundIsStable" />
+
+                <Button
+                    android:id="@+id/buttonRightsCompletelyProtected"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_RightsCompletelyProtected" />
+
+                <Button
+                    android:id="@+id/buttonWeExportTvAerials"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_WeExportTvAerials" />
+
+                <Button
+                    android:id="@+id/buttonWeightLiftedFromBritishBusiness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_WeightLiftedFromBritishBusiness" />
+
+                <Button
+                    android:id="@+id/buttonWinWinForallOfUs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_boris_WinWinForallOfUs" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
