@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Brexit Soundboard</string>
+    <string name="button_boris">Boris</string>
+    <string name="button_liam">Liam</string>
+    <string name="button_david">David</string>
+    <string name="button_theresa">Theresa</string>
+    <string name="button_sugguestion_box">Sugguestion Box</string>
 </resources>
