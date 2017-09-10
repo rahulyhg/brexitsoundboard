@@ -14,8 +14,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final ImageButton button = (ImageButton) findViewById(R.id.imageButtonSugguestionBox);
-        button.setOnClickListener(new View.OnClickListener() {
+        registerClickListenerBoris();
+        registerClickListenerSugguestionBox();
+    }
+
+    private void registerClickListenerBoris() {
+        final ImageButton buttonBorris = (ImageButton) findViewById(R.id.imageButtonBoris);
+        buttonBorris.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Intent = new Intent(view.getContext(), BorisActivity.class);
+                view.getContext().startActivity(Intent);}
+        });
+    }
+
+    private void registerClickListenerSugguestionBox() {
+        final ImageButton buttonSugguestionBox = (ImageButton) findViewById(R.id.imageButtonSugguestionBox);
+        buttonSugguestionBox.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 startActivity(new Intent(
                         Intent.ACTION_VIEW,
@@ -23,8 +38,5 @@ public class MainActivity extends AppCompatActivity {
                 );
             }
         });
-
     }
-
-
 }

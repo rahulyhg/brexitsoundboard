@@ -5,4 +5,8 @@
     <string name="button_david">David</string>
     <string name="button_theresa">Theresa</string>
     <string name="button_sugguestion_box">Sugguestion Box</string>
+    <string name="title_activity_boris">BorisActivity</string>
+    <string name="title_activity_liam">LiamActivity</string>
+    <string name="title_activity_david">DavidActivity</string>
+    <string name="title_activity_theresa">TheresaActivity</string>
 </resources>

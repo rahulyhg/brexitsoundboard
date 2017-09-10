@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BorisActivity"
+            android:label="@string/title_activity_boris" />
+        <activity
+            android:name=".LiamActivity"
+            android:label="@string/title_activity_liam" />
+        <activity
+            android:name=".DavidActivity"
+            android:label="@string/title_activity_david" />
+        <activity
+            android:name=".TheresaActivity"
+            android:label="@string/title_activity_theresa"></activity>
     </application>
 
 </manifest>
