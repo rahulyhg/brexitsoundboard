@@ -30,11 +30,25 @@
                 tools:layout_editor_absoluteY="8dp" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/imageButtonLiam"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/liam" />
+
+            <ImageButton
+                android:id="@+id/imageButtonDavid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/david" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTheresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/theresa" />
 
             <ImageButton
                 android:id="@+id/imageButtonSugguestionBox"
