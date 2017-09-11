@@ -14,17 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        registerClickListenerBoris();
+        registerClickListenerForPerson(R.id.imageButtonBoris, BorisActivity.class);
+        registerClickListenerForPerson(R.id.imageButtonDavid, DavidActivity.class);
+        registerClickListenerForPerson(R.id.imageButtonLiam, LiamActivity.class);
+        registerClickListenerForPerson(R.id.imageButtonTheresa, TheresaActivity.class);
         registerClickListenerSugguestionBox();
     }
 
-    private void registerClickListenerBoris() {
-        final ImageButton buttonBorris = (ImageButton) findViewById(R.id.imageButtonBoris);
-        buttonBorris.setOnClickListener(new View.OnClickListener() {
+    private void registerClickListenerForPerson(final int imageButtonViewId, final Class<?> activityClass) {
+        final ImageButton imageButton = (ImageButton) findViewById(imageButtonViewId);
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Intent = new Intent(view.getContext(), BorisActivity.class);
-                view.getContext().startActivity(Intent);}
+                Intent Intent = new Intent(view.getContext(), activityClass);
+                view.getContext().startActivity(Intent);
+            }
         });
     }
 
