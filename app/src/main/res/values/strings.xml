@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Brexit Soundboard</string>
 
     <string name="button_boris">Boris</string>
@@ -22,7 +22,7 @@
     <string name="button_boris_RightsCompletelyProtected">Rights Completely Protected</string>
     <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
     <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
-    <string name="button_boris_WinWinForallOfUs">Win Win For All Of Us</string>
+    <string name="button_boris_WinWinForallOfUs" tools:ignore="Typos">Win Win For All Of Us</string>
 
     <string name="button_david_ConfidentOfAGoodOutcome">Confident Of A Good Outcome</string>
     <string name="button_david_FollowUs">Follow Us</string>

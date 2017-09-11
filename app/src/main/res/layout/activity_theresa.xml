@@ -30,28 +30,28 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonBrexitMeansBrexit"
+                android:id="@+id/buttonTheresaBrexitMeansBrexit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_theresa_BrexitMeansBrexit" />
 
             <Button
-                android:id="@+id/buttonNoNeedForAnElection"
+                android:id="@+id/buttonTheresaNoNeedForAnElection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_theresa_NoNeedForAnElection" />
 
             <Button
-                android:id="@+id/buttonRedWhiteAndBlueBrexit"
+                android:id="@+id/buttonTheresaRedWhiteAndBlueBrexit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_theresa_RedWhiteAndBlueBrexit" />
 
             <Button
-                android:id="@+id/buttonStrongAndStableLeadership"
+                android:id="@+id/buttonTheresaStrongAndStableLeadership"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

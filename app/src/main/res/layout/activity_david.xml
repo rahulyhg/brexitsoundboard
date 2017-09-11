@@ -30,13 +30,13 @@
             android:orientation="vertical" >
 
             <Button
-                android:id="@+id/buttonConfidentOfAGoodOutcome"
+                android:id="@+id/buttonDavidConfidentOfAGoodOutcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_david_ConfidentOfAGoodOutcome" />
 
             <Button
-                android:id="@+id/buttonFollowUs"
+                android:id="@+id/buttonDavidFollowUs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_david_FollowUs" />
