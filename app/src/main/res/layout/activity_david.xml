@@ -36,10 +36,52 @@
                 android:text="@string/button_david_ConfidentOfAGoodOutcome" />
 
             <Button
+                android:id="@+id/buttonDavidConstructiveAmbguity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_ConstructiveAmbguity" />
+
+            <Button
+                android:id="@+id/buttonDavidDifficultToReadWhatWeIntend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_DifficultToReadWhatWeIntend" />
+
+            <Button
                 android:id="@+id/buttonDavidFollowUs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_david_FollowUs" />
+
+            <Button
+                android:id="@+id/buttonDavidIRuleNothingInNothingOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_IRuleNothingInNothingOut" />
+
+            <Button
+                android:id="@+id/buttonDavidItsGettingABitTense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_ItsGettingABitTense" />
+
+            <Button
+                android:id="@+id/buttonDavidItsGoingIncrediblyWell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_ItsGoingIncrediblyWell" />
+
+            <Button
+                android:id="@+id/buttonDavidNobodyPretendedThisWillBeSimpleOrEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_NobodyPretendedThisWillBeSimpleOrEasy" />
+
+            <Button
+                android:id="@+id/buttonDavidVeryGoodLawyers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_VeryGoodLawyers" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

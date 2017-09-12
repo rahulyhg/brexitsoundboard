@@ -30,10 +30,70 @@
             android:orientation="vertical" >
 
             <Button
+                android:id="@+id/buttonLiamBlamingTheMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_BlamingTheMedia" />
+
+            <Button
+                android:id="@+id/buttonLiamChickenObsessedMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_ChickenObsessedMedia" />
+
+            <Button
+                android:id="@+id/buttonLiamCitizensFirstNotPolitics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_CitizensFirstNotPolitics" />
+
+            <Button
                 android:id="@+id/buttonLiamEasiestInHumanHistory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_liam_EasiestInHumanHistory" />
+
+            <Button
+                android:id="@+id/buttonLiamHowWeConductOurselves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_HowWeConductOurselves" />
+
+            <Button
+                android:id="@+id/buttonLiamIntemperateLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_IntemperateLanguage" />
+
+            <Button
+                android:id="@+id/buttonLiamNotHavingADealWouldBeBad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_NotHavingADealWouldBeBad" />
+
+            <Button
+                android:id="@+id/buttonLiamOurChallengeIsNotEconomic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_OurChallengeIsNotEconomic" />
+
+            <Button
+                android:id="@+id/buttonLiamThisIsNotJustAboutEurope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_ThisIsNotJustAboutEurope" />
+
+            <Button
+                android:id="@+id/buttonLiamTooLazyAndTooFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_TooLazyAndTooFat" />
+
+            <Button
+                android:id="@+id/buttonLiamTremendousOpportunitiesOutThere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_liam_TremendousOpportunitiesOutThere" />
 
             <Button
                 android:id="@+id/buttonLiamWeCantBeBlackmailed"

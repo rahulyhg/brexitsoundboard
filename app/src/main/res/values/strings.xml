@@ -20,17 +20,37 @@
     <string name="button_boris_MeetOurObligations">Meet Our Obligations</string>
     <string name="button_boris_PoundIsStable">Pound Is Stable</string>
     <string name="button_boris_RightsCompletelyProtected">Rights Completely Protected</string>
+    <string name="button_boris_VindicatedByHistory">Vindicated By History</string>
     <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
     <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
     <string name="button_boris_WinWinForallOfUs" tools:ignore="Typos">Win Win For All Of Us</string>
 
     <string name="button_david_ConfidentOfAGoodOutcome">Confident Of A Good Outcome</string>
+    <string name="button_david_ConstructiveAmbguity">Constructive Ambguity</string>
+    <string name="button_david_DifficultToReadWhatWeIntend">Difficult To Read What We Intend</string>
     <string name="button_david_FollowUs">Follow Us</string>
+    <string name="button_david_IRuleNothingInNothingOut">I Rule Nothing In Nothing Out</string>
+    <string name="button_david_ItsGettingABitTense">It\'s Getting A Bit Tense</string>
+    <string name="button_david_ItsGoingIncrediblyWell">It\'s Going Incredibly Well</string>
+    <string name="button_david_NobodyPretendedThisWillBeSimpleOrEasy">Nobody Pretended This Will Be Simple Or Easy</string>
+    <string name="button_david_VeryGoodLawyers">We\'ve Got Very Good Lawyers</string>
 
+    <string name="button_liam_BlamingTheMedia">Blaming The Media</string>
+    <string name="button_liam_ChickenObsessedMedia">Chicken Obsessed Media</string>
+    <string name="button_liam_CitizensFirstNotPolitics">Citizens First Not Politics</string>
     <string name="button_liam_EasiestInHumanHistory">Easiest In Human History</string>
+    <string name="button_liam_HowWeConductOurselves">How We Conduct Ourselves</string>
+    <string name="button_liam_IntemperateLanguage">Intemperate Language</string>
+    <string name="button_liam_NotHavingADealWouldBeBad">Not Having A Deal Would Be Bad</string>
+    <string name="button_liam_OurChallengeIsNotEconomic">Our Challenge Is Not Economic</string>
+    <string name="button_liam_ThisIsNotJustAboutEurope">This Is Not Just About Europe</string>
+    <string name="button_liam_TooLazyAndTooFat">Too Lazy And Too Fat</string>
+    <string name="button_liam_TremendousOpportunitiesOutThere">Tremendous Opportunities Out There</string>
     <string name="button_liam_WeCantBeBlackmailed">We Can\'t Be Blackmailed</string>
 
     <string name="button_theresa_BrexitMeansBrexit">Brexit Means Brexit</string>
+    <string name="button_theresa_EveryVoteForMe">Every Vote For Me and My Team</string>
+    <string name="button_theresa_NoDealBetterThanABadDeal">No Deal Better Than A Bad Deal</string>
     <string name="button_theresa_NoNeedForAnElection">No Need For An Election</string>
     <string name="button_theresa_RedWhiteAndBlueBrexit">Red White And Blue Brexit</string>
     <string name="button_theresa_StrongAndStableLeadership">Strong And Stable Leadership</string>

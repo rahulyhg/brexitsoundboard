@@ -18,6 +18,7 @@ public class BorisActivity extends SoundActivity implements View.OnClickListener
         registerClickListener(R.id.buttonBorisMeetOurObligations);
         registerClickListener(R.id.buttonBorisPoundIsStable);
         registerClickListener(R.id.buttonBorisRightsCompletelyProtected);
+        registerClickListener(R.id.buttonBorisVindicatedByHistory);
         registerClickListener(R.id.buttonBorisWeExportTvAerials);
         registerClickListener(R.id.buttonBorisWeightLiftedFromBritishBusiness);
         registerClickListener(R.id.buttonBorisWinWinForallOfUs);
@@ -66,6 +67,10 @@ public class BorisActivity extends SoundActivity implements View.OnClickListener
 
             case R.id.buttonBorisRightsCompletelyProtected:
                 playSound(R.raw.boris_sound_rights_completely_protected);
+                break;
+
+            case R.id.buttonBorisVindicatedByHistory:
+                playSound(R.raw.boris_sound_vindicated_by_history);
                 break;
 
             case R.id.buttonBorisWeExportTvAerials:

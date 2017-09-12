@@ -9,7 +9,10 @@ public class TheresaActivity extends SoundActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theresa);
+
         registerClickListener(R.id.buttonTheresaBrexitMeansBrexit);
+        registerClickListener(R.id.buttonTheresaEveryVoteForMe);
+        registerClickListener(R.id.buttonTheresaNoDealBetterThanABadDeal);
         registerClickListener(R.id.buttonTheresaNoNeedForAnElection);
         registerClickListener(R.id.buttonTheresaRedWhiteAndBlueBrexit);
         registerClickListener(R.id.buttonTheresaStrongAndStableLeadership);
@@ -30,6 +33,14 @@ public class TheresaActivity extends SoundActivity implements View.OnClickListen
         switch (view.getId()) {
             case R.id.buttonTheresaBrexitMeansBrexit:
                 playSound(R.raw.theresa_sound_brexit_means_brexit);
+                break;
+
+            case R.id.buttonTheresaEveryVoteForMe:
+                playSound(R.raw.theresa_sound_every_vote_for_me);
+                break;
+
+            case R.id.buttonTheresaNoDealBetterThanABadDeal:
+                playSound(R.raw.theresa_sound_no_deal_better_than_a_bad_deal);
                 break;
 
             case R.id.buttonTheresaNoNeedForAnElection:

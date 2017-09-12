@@ -37,6 +37,20 @@
                 android:text="@string/button_theresa_BrexitMeansBrexit" />
 
             <Button
+                android:id="@+id/buttonTheresaEveryVoteForMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_theresa_EveryVoteForMe" />
+
+            <Button
+                android:id="@+id/buttonTheresaNoDealBetterThanABadDeal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_theresa_NoDealBetterThanABadDeal" />
+
+            <Button
                 android:id="@+id/buttonTheresaNoNeedForAnElection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
