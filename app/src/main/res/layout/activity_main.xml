@@ -46,9 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/button_boris"
-                app:srcCompat="@drawable/boris"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="8dp" />
+                app:srcCompat="@drawable/boris"/>
 
             <ImageButton
                 android:id="@+id/imageButtonLiam"
@@ -75,14 +73,12 @@
                 app:srcCompat="@drawable/theresa" />
 
             <ImageButton
-                android:id="@+id/imageButtonSugguestionBox"
+                android:id="@+id/imageButtonSuggestionBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:contentDescription="@string/button_sugguestion_box"
-                app:srcCompat="@drawable/sugguestionbox"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="237dp" />
+                android:contentDescription="@string/button_suggestion_box"
+                app:srcCompat="@drawable/suggestionbox"/>
 
         </LinearLayout>
     </ScrollView>

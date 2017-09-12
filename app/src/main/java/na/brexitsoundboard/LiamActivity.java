@@ -17,7 +17,6 @@ public class LiamActivity extends SoundActivity implements View.OnClickListener 
         registerClickListener(R.id.buttonLiamHowWeConductOurselves);
         registerClickListener(R.id.buttonLiamIntemperateLanguage);
         registerClickListener(R.id.buttonLiamNotHavingADealWouldBeBad);
-        registerClickListener(R.id.buttonLiamOurChallengeIsNotEconomic);
         registerClickListener(R.id.buttonLiamThisIsNotJustAboutEurope);
         registerClickListener(R.id.buttonLiamTooLazyAndTooFat);
         registerClickListener(R.id.buttonLiamTremendousOpportunitiesOutThere);
@@ -64,10 +63,6 @@ public class LiamActivity extends SoundActivity implements View.OnClickListener 
 
             case R.id.buttonLiamNotHavingADealWouldBeBad:
                 playSound(R.raw.liam_sound_not_having_a_deal_would_be_bad);
-                break;
-
-            case R.id.buttonLiamOurChallengeIsNotEconomic:
-                playSound(R.raw.liam_sound_our_challenge_is_not_economic);
                 break;
 
             case R.id.buttonLiamThisIsNotJustAboutEurope:

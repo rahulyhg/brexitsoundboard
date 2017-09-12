@@ -11,7 +11,7 @@ public class DavidActivity extends SoundActivity implements View.OnClickListener
         setContentView(R.layout.activity_david);
 
         registerClickListener(R.id.buttonDavidConfidentOfAGoodOutcome);
-        registerClickListener(R.id.buttonDavidConstructiveAmbguity);
+        registerClickListener(R.id.buttonDavidConstructiveAmbiguity);
         registerClickListener(R.id.buttonDavidDifficultToReadWhatWeIntend);
         registerClickListener(R.id.buttonDavidFollowUs);
         registerClickListener(R.id.buttonDavidIRuleNothingInNothingOut);
@@ -38,8 +38,8 @@ public class DavidActivity extends SoundActivity implements View.OnClickListener
                 playSound(R.raw.david_sound_confident_of_a_good_outcome);
                 break;
 
-            case R.id.buttonDavidConstructiveAmbguity:
-                playSound(R.raw.david_sound_constructive_ambguity);
+            case R.id.buttonDavidConstructiveAmbiguity:
+                playSound(R.raw.david_sound_constructive_ambiguity);
                 break;
 
             case R.id.buttonDavidDifficultToReadWhatWeIntend:

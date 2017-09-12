@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         registerClickListenerForPerson(R.id.imageButtonDavid, DavidActivity.class);
         registerClickListenerForPerson(R.id.imageButtonLiam, LiamActivity.class);
         registerClickListenerForPerson(R.id.imageButtonTheresa, TheresaActivity.class);
-        registerClickListenerSugguestionBox();
+        registerClickListenerSuggestionBox();
     }
 
     private void registerClickListenerForPerson(final int imageButtonViewId, final Class<?> activityClass) {
@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void registerClickListenerSugguestionBox() {
-        final ImageButton buttonSugguestionBox = (ImageButton) findViewById(R.id.imageButtonSugguestionBox);
-        buttonSugguestionBox.setOnClickListener(new View.OnClickListener() {
+    private void registerClickListenerSuggestionBox() {
+        final ImageButton buttonSuggestionBox = (ImageButton) findViewById(R.id.imageButtonSuggestionBox);
+        buttonSuggestionBox.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 startActivity(new Intent(
                         Intent.ACTION_VIEW,

@@ -99,10 +99,10 @@
                 android:text="@string/button_boris_WeightLiftedFromBritishBusiness" />
 
             <Button
-                android:id="@+id/buttonBorisWinWinForallOfUs"
+                android:id="@+id/buttonBorisWinWinForAllOfUs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_boris_WinWinForallOfUs" />
+                android:text="@string/button_boris_WinWinForAllOfUs" />
         </LinearLayout>
     </ScrollView>
 

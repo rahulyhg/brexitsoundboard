@@ -5,7 +5,7 @@
     <string name="button_liam">Liam</string>
     <string name="button_david">David</string>
     <string name="button_theresa">Theresa</string>
-    <string name="button_sugguestion_box">Sugguestion Box</string>
+    <string name="button_suggestion_box">Suggestion Box</string>
 
     <string name="title_activity_boris">Boris Johnson</string>
     <string name="title_activity_liam">Liam Fox</string>
@@ -23,10 +23,10 @@
     <string name="button_boris_VindicatedByHistory">Vindicated By History</string>
     <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
     <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
-    <string name="button_boris_WinWinForallOfUs" tools:ignore="Typos">Win Win For All Of Us</string>
+    <string name="button_boris_WinWinForAllOfUs" tools:ignore="Typos">Win Win For All Of Us</string>
 
     <string name="button_david_ConfidentOfAGoodOutcome">Confident Of A Good Outcome</string>
-    <string name="button_david_ConstructiveAmbguity">Constructive Ambguity</string>
+    <string name="button_david_ConstructiveAmbiguity">Constructive Ambiguity</string>
     <string name="button_david_DifficultToReadWhatWeIntend">Difficult To Read What We Intend</string>
     <string name="button_david_FollowUs">Follow Us</string>
     <string name="button_david_IRuleNothingInNothingOut">I Rule Nothing In Nothing Out</string>
@@ -42,7 +42,6 @@
     <string name="button_liam_HowWeConductOurselves">How We Conduct Ourselves</string>
     <string name="button_liam_IntemperateLanguage">Intemperate Language</string>
     <string name="button_liam_NotHavingADealWouldBeBad">Not Having A Deal Would Be Bad</string>
-    <string name="button_liam_OurChallengeIsNotEconomic">Our Challenge Is Not Economic</string>
     <string name="button_liam_ThisIsNotJustAboutEurope">This Is Not Just About Europe</string>
     <string name="button_liam_TooLazyAndTooFat">Too Lazy And Too Fat</string>
     <string name="button_liam_TremendousOpportunitiesOutThere">Tremendous Opportunities Out There</string>
