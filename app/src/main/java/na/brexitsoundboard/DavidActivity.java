@@ -4,11 +4,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DavidActivity extends SoundActivity implements View.OnClickListener {
+import com.google.firebase.analytics.FirebaseAnalytics;
+
+public class DavidActivity extends BrexitSoundboardActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_david);
+
+        firebaseWrapper.firebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         registerClickListener(R.id.buttonDavidConfidentOfAGoodOutcome);
         registerClickListener(R.id.buttonDavidConstructiveAmbiguity);
@@ -28,46 +32,44 @@ public class DavidActivity extends SoundActivity implements View.OnClickListener
 
     @Override
     public void onClick(View view) {
-        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
-            mediaPlayer.stop();
-            mediaPlayer.release();
-        }
+        resetMediaPlayer();
+        firebaseWrapper.logAnalyticsEvent("id", "name", "contentType");
 
         switch (view.getId()) {
             case R.id.buttonDavidConfidentOfAGoodOutcome:
-                playSound(R.raw.david_sound_confident_of_a_good_outcome);
+                playMediaFile(R.raw.david_sound_confident_of_a_good_outcome);
                 break;
 
             case R.id.buttonDavidConstructiveAmbiguity:
-                playSound(R.raw.david_sound_constructive_ambiguity);
+                playMediaFile(R.raw.david_sound_constructive_ambiguity);
                 break;
 
             case R.id.buttonDavidDifficultToReadWhatWeIntend:
-                playSound(R.raw.david_sound_difficult_to_read_what_we_intend);
+                playMediaFile(R.raw.david_sound_difficult_to_read_what_we_intend);
                 break;
 
             case R.id.buttonDavidFollowUs:
-                playSound(R.raw.david_sound_follow_us);
+                playMediaFile(R.raw.david_sound_follow_us);
                 break;
 
             case R.id.buttonDavidIRuleNothingInNothingOut:
-                playSound(R.raw.david_sound_i_rule_nothing_in_nothing_out);
+                playMediaFile(R.raw.david_sound_i_rule_nothing_in_nothing_out);
                 break;
 
             case R.id.buttonDavidItsGettingABitTense:
-                playSound(R.raw.david_sound_its_getting_a_bit_tense);
+                playMediaFile(R.raw.david_sound_its_getting_a_bit_tense);
                 break;
 
             case R.id.buttonDavidItsGoingIncrediblyWell:
-                playSound(R.raw.david_sound_its_going_incredibly_well);
+                playMediaFile(R.raw.david_sound_its_going_incredibly_well);
                 break;
 
             case R.id.buttonDavidNobodyPretendedThisWillBeSimpleOrEasy:
-                playSound(R.raw.david_sound_nobody_pretended_this_will_be_simple_or_easy);
+                playMediaFile(R.raw.david_sound_nobody_pretended_this_will_be_simple_or_easy);
                 break;
 
             case R.id.buttonDavidVeryGoodLawyers:
-                playSound(R.raw.david_sound_very_good_lawyers);
+                playMediaFile(R.raw.david_sound_very_good_lawyers);
                 break;
         }
     }

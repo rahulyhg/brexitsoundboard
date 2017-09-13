@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "100558345927",
+    "firebase_url": "https://brexitsoundboard-c77eb.firebaseio.com",
+    "project_id": "brexitsoundboard-c77eb",
+    "storage_bucket": "brexitsoundboard-c77eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100558345927:android:b0bb5c55dc6617ca",
+        "android_client_info": {
+          "package_name": "na.brexitsoundboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100558345927-sn6kif4l4lnn024enj9tgepglmk95suk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "na.brexitsoundboard",
+            "certificate_hash": "cf360d8a9a888e14acec0fb5bf50c8346e955a6d"
+          }
+        },
+        {
+          "client_id": "100558345927-cbrkmmefsck7uvt7uujid3n4h3gclakd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ1BkzzV9pY_qxVSLaTXm1C8hLJajTI58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100558345927-cbrkmmefsck7uvt7uujid3n4h3gclakd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

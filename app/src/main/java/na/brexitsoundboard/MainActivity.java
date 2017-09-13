@@ -7,12 +7,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
+import na.brexitsoundboard.logging.FirebaseWrapper;
+
 public class MainActivity extends AppCompatActivity {
+    private FirebaseWrapper firebaseWrapper = new FirebaseWrapper();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        firebaseWrapper.firebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         registerClickListenerForPerson(R.id.imageButtonBoris, BorisActivity.class);
         registerClickListenerForPerson(R.id.imageButtonDavid, DavidActivity.class);
@@ -26,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                firebaseWrapper.logAnalyticsEvent("id", "name", "contentType");
+
                 Intent Intent = new Intent(view.getContext(), activityClass);
                 view.getContext().startActivity(Intent);
             }
