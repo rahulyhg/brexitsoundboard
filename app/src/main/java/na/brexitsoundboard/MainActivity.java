@@ -12,7 +12,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import na.brexitsoundboard.logging.FirebaseWrapper;
 
 public class MainActivity extends AppCompatActivity {
-    private FirebaseWrapper firebaseWrapper = new FirebaseWrapper();
+    private final FirebaseWrapper firebaseWrapper = new FirebaseWrapper();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
