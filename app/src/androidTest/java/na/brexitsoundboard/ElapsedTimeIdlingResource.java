@@ -2,7 +2,7 @@ package na.brexitsoundboard;
 
 import android.support.test.espresso.IdlingResource;
 
-public class ElapsedTimeIdlingResource implements IdlingResource {
+class ElapsedTimeIdlingResource implements IdlingResource {
     private final long startTime;
     private final long waitingTime;
     private ResourceCallback resourceCallback;

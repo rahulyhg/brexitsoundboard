@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/button_boris"
-                app:srcCompat="@drawable/boris"/>
+                app:srcCompat="@drawable/boris" />
 
             <ImageButton
                 android:id="@+id/imageButtonLiam"
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/button_suggestion_box"
-                app:srcCompat="@drawable/suggestionbox"/>
+                app:srcCompat="@drawable/suggestionbox" />
 
         </LinearLayout>
     </ScrollView>
