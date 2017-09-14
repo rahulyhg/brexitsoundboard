@@ -3,7 +3,7 @@ A simple Android app for playing memorable sound quotes from key Brexit politici
 
 <a href="https://play.google.com/store/apps/details?id=na.brexitsoundboard&hl=en"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png" height="45"/></a>
 
-The [source code](https://github.com/jameshnsears/brexitsoundboard) for the app demonstrates various things:
+The [source code](https://github.com/jameshnsears/brexitsoundboard) for the app demonstrates:
 * expresso - including Idling
 * Google Firebase analytics
 * mockito

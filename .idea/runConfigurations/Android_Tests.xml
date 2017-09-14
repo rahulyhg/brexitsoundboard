@@ -1,11 +1,12 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Brexit Soundboard App" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+  <configuration default="false" name="Android Tests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
     <module name="app" />
-    <option name="DEPLOY" value="true" />
-    <option name="ARTIFACT_NAME" value="" />
-    <option name="PM_INSTALL_OPTIONS" value="" />
-    <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-    <option name="MODE" value="default_activity" />
+    <option name="TESTING_TYPE" value="2" />
+    <option name="INSTRUMENTATION_RUNNER_CLASS" value="android.support.test.runner.AndroidJUnitRunner" />
+    <option name="METHOD_NAME" value="" />
+    <option name="CLASS_NAME" value="na.brexitsoundboard.MainActivityTest" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="EXTRA_OPTIONS" value="" />
     <option name="PREFERRED_AVD" value="" />
     <option name="CLEAR_LOGCAT" value="false" />
     <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
@@ -14,7 +15,7 @@
     <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
     <option name="USE_LAST_SELECTED_DEVICE" value="true" />
     <option name="PREFERRED_AVD" value="" />
-    <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+    <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="2147483645" />
     <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
     <option name="DEBUGGER_TYPE" value="Auto" />
     <Auto>
@@ -44,8 +45,6 @@
       <option name="SUPPORT_LIB_ENABLED" value="true" />
       <option name="INSTRUMENTATION_ENABLED" value="true" />
     </Profilers>
-    <option name="DEEP_LINK" value="" />
-    <option name="ACTIVITY_CLASS" value="" />
     <method />
   </configuration>
 </component>

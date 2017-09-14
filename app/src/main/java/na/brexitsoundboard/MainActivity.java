@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
-import na.brexitsoundboard.logging.FirebaseWrapper;
+import na.brexitsoundboard.analytics.FirebaseWrapper;
 
 public class MainActivity extends AppCompatActivity {
     private final FirebaseWrapper firebaseWrapper = new FirebaseWrapper();

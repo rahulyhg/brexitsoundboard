@@ -1,4 +1,4 @@
-package na.brexitsoundboard.logging;
+package na.brexitsoundboard.analytics;
 
 import android.os.Bundle;
 

@@ -1,18 +1,18 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="BorisTest" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
-    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <configuration default="false" name="Tests" type="AndroidJUnit" factoryName="Android JUnit">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="idea">
       <pattern>
-        <option name="PATTERN" value="na.brexitsoundboard.BorisActivity" />
+        <option name="PATTERN" value="na.brexitsoundboard.buttontosound.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <module name="app" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />
-    <option name="PACKAGE_NAME" value="na.brexitsoundboard" />
-    <option name="MAIN_CLASS_NAME" value="na.brexitsoundboard.BorisTest" />
+    <option name="PACKAGE_NAME" />
+    <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
-    <option name="TEST_OBJECT" value="class" />
+    <option name="TEST_OBJECT" value="directory" />
     <option name="VM_PARAMETERS" value="" />
     <option name="PARAMETERS" value="" />
     <option name="WORKING_DIRECTORY" value="" />
@@ -22,6 +22,7 @@
       <value defaultName="singleModule" />
     </option>
     <envs />
+    <dir value="$PROJECT_DIR$/app/src/test/java/na/brexitsoundboard" />
     <patterns />
     <method />
   </configuration>
