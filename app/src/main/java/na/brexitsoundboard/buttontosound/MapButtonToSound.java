@@ -12,13 +12,13 @@ public class MapButtonToSound {
     public final Map<Integer, Integer> buttonIdToSoundIdMap = new HashMap<>();
 
     public MapButtonToSound() {
-        populateBorisButtonToSoundMap();
-        populateDavidButtonToSoundMap();
-        populateLiamButtonToSoundMap();
-        populateTheresaButtonToSoundMap();
+        mapBorisButtonsToSounds();
+        mapDavidButtonsToSounds();
+        mapLiamButtonsToSounds();
+        mapTheresaButtonsToSounds();
     }
 
-    private void populateBorisButtonToSoundMap() {
+    private void mapBorisButtonsToSounds() {
         buttonIdToSoundIdMap.put(R.id.buttonBoris350MillionPoundsAWeek, R.raw.boris_sound_350_million_pounds_a_week);
         buttonIdToSoundIdMap.put(R.id.buttonBorisAllYourOptionsAreGood, R.raw.boris_sound_all_your_options_are_good);
         buttonIdToSoundIdMap.put(R.id.buttonBorisCostOfGettingOutVirtuallyNil, R.raw.boris_sound_cost_of_getting_out_virtually_nil);
@@ -33,7 +33,7 @@ public class MapButtonToSound {
         buttonIdToSoundIdMap.put(R.id.buttonBorisWinWinForAllOfUs, R.raw.boris_sound_win_win_for_all_off_us);
     }
 
-    private void populateDavidButtonToSoundMap() {
+    private void mapDavidButtonsToSounds() {
         buttonIdToSoundIdMap.put(R.id.buttonDavidConfidentOfAGoodOutcome, R.raw.david_sound_confident_of_a_good_outcome);
         buttonIdToSoundIdMap.put(R.id.buttonDavidConstructiveAmbiguity, R.raw.david_sound_constructive_ambiguity);
         buttonIdToSoundIdMap.put(R.id.buttonDavidDifficultToReadWhatWeIntend, R.raw.david_sound_difficult_to_read_what_we_intend);
@@ -45,7 +45,7 @@ public class MapButtonToSound {
         buttonIdToSoundIdMap.put(R.id.buttonDavidVeryGoodLawyers, R.raw.david_sound_very_good_lawyers);
     }
 
-    private void populateLiamButtonToSoundMap() {
+    private void mapLiamButtonsToSounds() {
         buttonIdToSoundIdMap.put(R.id.buttonLiamBlamingTheMedia, R.raw.liam_sound_blaming_the_media);
         buttonIdToSoundIdMap.put(R.id.buttonLiamChickenObsessedMedia, R.raw.liam_sound_chicken_obsessed_media);
         buttonIdToSoundIdMap.put(R.id.buttonLiamCitizensFirstNotPolitics, R.raw.liam_sound_citizens_first_not_politics);
@@ -60,7 +60,7 @@ public class MapButtonToSound {
         buttonIdToSoundIdMap.put(R.id.buttonBoris350MillionPoundsAWeek, R.raw.boris_sound_350_million_pounds_a_week);
     }
 
-    private void populateTheresaButtonToSoundMap() {
+    private void mapTheresaButtonsToSounds() {
         buttonIdToSoundIdMap.put(R.id.buttonTheresaBrexitMeansBrexit, R.raw.theresa_sound_brexit_means_brexit);
         buttonIdToSoundIdMap.put(R.id.buttonTheresaEveryVoteForMe, R.raw.theresa_sound_every_vote_for_me);
         buttonIdToSoundIdMap.put(R.id.buttonTheresaNoDealBetterThanABadDeal, R.raw.theresa_sound_no_deal_better_than_a_bad_deal);

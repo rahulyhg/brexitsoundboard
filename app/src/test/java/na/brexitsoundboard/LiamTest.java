@@ -2,7 +2,7 @@ package na.brexitsoundboard;
 
 import org.junit.Test;
 
-public class LiamTest extends MapAssertion {
+public class LiamTest extends AssertMap {
     @Test
     public void ensureButtonsPlayCorrectSounds() throws Exception {
         keyValueMap.put(R.id.buttonLiamBlamingTheMedia, R.raw.liam_sound_blaming_the_media);
@@ -18,6 +18,6 @@ public class LiamTest extends MapAssertion {
         keyValueMap.put(R.id.buttonLiamWeCantBeBlackmailed, R.raw.liam_sound_we_cant_be_blackmailed);
         keyValueMap.put(R.id.buttonBoris350MillionPoundsAWeek, R.raw.boris_sound_350_million_pounds_a_week);
 
-        assertKeyValuesMatch();
+        assertKeyValueMatch();
     }
 }

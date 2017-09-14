@@ -12,12 +12,11 @@ import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public abstract class MapAssertion {
+abstract class AssertMap {
     @SuppressLint("UseSparseArrays")
-    final
-    Map<Integer, Integer> keyValueMap = new HashMap<>();
+    final Map<Integer, Integer> keyValueMap = new HashMap<>();
 
-    void assertKeyValuesMatch() {
+    void assertKeyValueMatch() {
         MapButtonToSound mapButtonToSound = new MapButtonToSound();
 
         View view = mock(View.class);

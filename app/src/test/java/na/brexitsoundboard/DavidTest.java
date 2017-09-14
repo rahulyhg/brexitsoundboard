@@ -2,7 +2,7 @@ package na.brexitsoundboard;
 
 import org.junit.Test;
 
-public class DavidTest extends MapAssertion {
+public class DavidTest extends AssertMap {
     @Test
     public void ensureButtonsPlayCorrectSounds() throws Exception {
         keyValueMap.put(R.id.buttonDavidConfidentOfAGoodOutcome, R.raw.david_sound_confident_of_a_good_outcome);
@@ -15,6 +15,6 @@ public class DavidTest extends MapAssertion {
         keyValueMap.put(R.id.buttonDavidNobodyPretendedThisWillBeSimpleOrEasy, R.raw.david_sound_nobody_pretended_this_will_be_simple_or_easy);
         keyValueMap.put(R.id.buttonDavidVeryGoodLawyers, R.raw.david_sound_very_good_lawyers);
 
-        assertKeyValuesMatch();
+        assertKeyValueMatch();
     }
 }
