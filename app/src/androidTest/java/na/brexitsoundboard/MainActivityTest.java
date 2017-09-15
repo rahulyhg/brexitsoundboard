@@ -61,7 +61,7 @@ public class MainActivityTest {
     public void mainActivityTest() {
         IdlingResource idlingResource = idle(DateUtils.SECOND_IN_MILLIS * 3);
 
-        ViewInteraction imageButton = onView(
+        ViewInteraction borisButton = onView(
                 allOf(withId(R.id.imageButtonBoris), withContentDescription(InstrumentationRegistry.getTargetContext().getString(R.string.button_boris)),
                         childAtPosition(
                                 childAtPosition(
@@ -69,7 +69,7 @@ public class MainActivityTest {
                                         0),
                                 0),
                         isDisplayed()));
-        imageButton.check(matches(isDisplayed()));
+        borisButton.check(matches(isDisplayed()));
 
         resetIdlingResource(idlingResource);
     }

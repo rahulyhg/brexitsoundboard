@@ -1,0 +1,37 @@
+language: android
+
+jdk: oraclejdk8
+
+sudo: false
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - tools
+    - build-tools-22.0.1
+    - android-22
+    - extra
+    - addon
+    - sys-img-armeabi-v7a-android-22
+
+before_script:
+ - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+ - emulator -avd test -no-audio -no-window &
+ - android-wait-for-emulator
+ - adb shell input keyevent 82 &
+
+before_install:
+  - chmod +x gradlew
+
+install:
+  - sdkmanager --list || true
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
+
+notifications:
+  email:
+    - brexitsoundboard@gmail.com
+
+script:
+  - ./gradlew coveralls
