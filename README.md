@@ -1,6 +1,6 @@
 # Brexit Soundboard [![travis](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)
 
-<img alt="Brexit Soundboard QR Code" alt="Brexit Soundboard QR Code" src="https://raw.githubusercontent.com/jameshnsears/brexitsoundboard/master/images/qr_code.jpg"  height="100"/>
+<img alt="Brexit Soundboard QR Code" alt="Brexit Soundboard QR Code" src="https://raw.githubusercontent.com/jameshnsears/brexitsoundboard/master/images/qr_code.jpg"  height="150"/>
 
 A simple Android app for playing memorable sound quotes from key Brexit politicians.
 
