@@ -1,4 +1,6 @@
-# Brexit Soundboard [![travis](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master) [![coveralls](https://coveralls.io/repos/github/jameshnsears/brexitsoundboard/badge.svg?branch=master)](https://coveralls.io/github/jameshnsears/brexitsoundboard?branch=master)
+# Brexit Soundboard [![travis](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)
+
+<img alt="Brexit Soundboard QR Code" alt="Brexit Soundboard QR Code" src="https://raw.githubusercontent.com/jameshnsears/brexitsoundboard/master/images/qr_code.jpg"  height="100"/>
 
 A simple Android app for playing memorable sound quotes from key Brexit politicians.
 
@@ -8,7 +10,7 @@ The [source code](https://github.com/jameshnsears/brexitsoundboard) for the app 
 * expresso - including Idling
 * Google Firebase analytics
 * mockito
-* travis-ci
+* travis-ci integration
 
 ## Contribute
 * Use the Suggestion Box in the app or a GitHub [pull request](https://help.github.com/articles/about-pull-requests/).
@@ -18,4 +20,4 @@ The [source code](https://github.com/jameshnsears/brexitsoundboard) for the app 
 * Audacity
 * Camtasia Studio
 * Gimp
-* GitHub Issues & Projects Kanaban board(s)
+* GitHub Issues & Projects Kanaban board
