@@ -2,6 +2,7 @@ package na.brexitsoundboard;
 
 import android.app.Activity;
 import android.media.MediaPlayer;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -23,6 +24,7 @@ public abstract class BrexitSoundboardActivity extends Activity implements View.
     }
 
     private void playMediaFile(final int raw_sound) {
+        Log.i(this.getClass().getSimpleName(), "playMediaFile");
         mediaPlayer = MediaPlayer.create(this, raw_sound);
         mediaPlayer.start();
     }
@@ -34,7 +36,11 @@ public abstract class BrexitSoundboardActivity extends Activity implements View.
 
     @Override
     public void onClick(View view) {
-        firebaseWrapper.logAnalyticsEvent("id", "name", "contentType");
+        Log.i(this.getClass().getSimpleName(), "onClick");
+        firebaseWrapper.logAnalyticsEvent(
+                this.getClass().getSimpleName(),
+                getResources().getResourceName(view.getId()),
+                "onClick");
         resetMediaPlayer();
         playMediaFile((mapButtonToSound.buttonIdToSoundIdMap).get(view.getId()));
     }

@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                firebaseWrapper.logAnalyticsEvent("id", "name", "contentType");
-
+                firebaseWrapper.logAnalyticsEvent(
+                        this.getClass().getSimpleName(),
+                        getResources().getResourceName(view.getId()),
+                        "onClick");
                 Intent Intent = new Intent(view.getContext(), activityClass);
                 view.getContext().startActivity(Intent);
             }
