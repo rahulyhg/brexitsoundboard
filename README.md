@@ -1,4 +1,4 @@
-# Brexit Soundboard [![travis](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)
+# Brexit Soundboard [![Build Status](https://travis-ci.org/jameshnsears/brexitsoundboard.svg?branch=master)](https://travis-ci.org/jameshnsears/brexitsoundboard)
 
 <img alt="Brexit Soundboard QR Code" alt="Brexit Soundboard QR Code" src="https://raw.githubusercontent.com/jameshnsears/brexitsoundboard/master/images/qr_code.jpg"  height="150"/>
 
