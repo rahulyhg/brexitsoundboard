@@ -16,7 +16,7 @@ The [source code](https://github.com/jameshnsears/brexitsoundboard) for the app 
 * Use the Suggestion Box in the app or a GitHub [pull request](https://help.github.com/articles/about-pull-requests/).
 
 ## Tools Used
-* Android Studio 2.3
+* Android Studio 3.0
 * Audacity
 * Camtasia Studio
 * Gimp

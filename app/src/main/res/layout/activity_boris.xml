@@ -81,6 +81,12 @@
                 android:text="@string/button_boris_RightsCompletelyProtected" />
 
             <Button
+                android:id="@+id/buttonBorisTigerIntheTank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_boris_TigerInTheTank" />
+
+            <Button
                 android:id="@+id/buttonBorisVindicatedByHistory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

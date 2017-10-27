@@ -13,6 +13,7 @@ public class DavidTest extends AssertMap {
         keyValueMap.put(R.id.buttonDavidItsGettingABitTense, R.raw.david_sound_its_getting_a_bit_tense);
         keyValueMap.put(R.id.buttonDavidItsGoingIncrediblyWell, R.raw.david_sound_its_going_incredibly_well);
         keyValueMap.put(R.id.buttonDavidNobodyPretendedThisWillBeSimpleOrEasy, R.raw.david_sound_nobody_pretended_this_will_be_simple_or_easy);
+        keyValueMap.put(R.id.buttonDavidTimeAsAPressurePoint, R.raw.david_sound_time_as_a_pressure_point);
         keyValueMap.put(R.id.buttonDavidVeryGoodLawyers, R.raw.david_sound_very_good_lawyers);
 
         assertKeyValueMatch();

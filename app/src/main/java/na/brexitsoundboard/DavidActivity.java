@@ -20,6 +20,7 @@ public class DavidActivity extends BrexitSoundboardActivity {
         registerClickListener(R.id.buttonDavidItsGettingABitTense);
         registerClickListener(R.id.buttonDavidItsGoingIncrediblyWell);
         registerClickListener(R.id.buttonDavidNobodyPretendedThisWillBeSimpleOrEasy);
+        registerClickListener(R.id.buttonDavidTimeAsAPressurePoint);
         registerClickListener(R.id.buttonDavidVeryGoodLawyers);
     }
 }

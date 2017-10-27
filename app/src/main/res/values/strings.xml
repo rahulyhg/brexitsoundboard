@@ -20,6 +20,7 @@
     <string name="button_boris_MeetOurObligations">Meet Our Obligations</string>
     <string name="button_boris_PoundIsStable">Pound Is Stable</string>
     <string name="button_boris_RightsCompletelyProtected">Rights Completely Protected</string>
+    <string name="button_boris_TigerInTheTank">Tiger In The Tank</string>
     <string name="button_boris_VindicatedByHistory">Vindicated By History</string>
     <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
     <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
@@ -32,7 +33,8 @@
     <string name="button_david_IRuleNothingInNothingOut">I Rule Nothing In Nothing Out</string>
     <string name="button_david_ItsGettingABitTense">It\'s Getting A Bit Tense</string>
     <string name="button_david_ItsGoingIncrediblyWell">It\'s Going Incredibly Well</string>
-    <string name="button_david_NobodyPretendedThisWillBeSimpleOrEasy">Nobody Pretended This Will Be Simple Or Easy</string>
+    <string name="button_david_NobodyPretendedThisWillBeSimpleOrEasy">Nobody Pretended This Will Be Simple</string>
+    <string name="button_david_TimeAsAPressurePoint">Time As A Pressure Point</string>
     <string name="button_david_VeryGoodLawyers">We\'ve Got Very Good Lawyers</string>
 
     <string name="button_liam_BlamingTheMedia">Blaming The Media</string>

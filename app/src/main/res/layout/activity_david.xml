@@ -78,6 +78,12 @@
                 android:text="@string/button_david_NobodyPretendedThisWillBeSimpleOrEasy" />
 
             <Button
+                android:id="@+id/buttonDavidTimeAsAPressurePoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_david_TimeAsAPressurePoint" />
+
+            <Button
                 android:id="@+id/buttonDavidVeryGoodLawyers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

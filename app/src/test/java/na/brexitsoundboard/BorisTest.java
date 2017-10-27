@@ -13,6 +13,7 @@ public class BorisTest extends AssertMap {
         keyValueMap.put(R.id.buttonBorisMeetOurObligations, R.raw.boris_sound_meet_our_obligations);
         keyValueMap.put(R.id.buttonBorisPoundIsStable, R.raw.boris_sound_pound_is_stable);
         keyValueMap.put(R.id.buttonBorisRightsCompletelyProtected, R.raw.boris_sound_rights_completely_protected);
+        keyValueMap.put(R.id.buttonBorisTigerIntheTank, R.raw.boris_sound_tiger_in_the_tank);
         keyValueMap.put(R.id.buttonBorisVindicatedByHistory, R.raw.boris_sound_vindicated_by_history);
         keyValueMap.put(R.id.buttonBorisWeExportTvAerials, R.raw.boris_sound_we_export_tv_aerials);
         keyValueMap.put(R.id.buttonBorisWeightLiftedFromBritishBusiness, R.raw.boris_sound_weight_lifted_from_british_business);
