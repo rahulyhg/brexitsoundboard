@@ -81,6 +81,12 @@
                 android:text="@string/button_boris_RightsCompletelyProtected" />
 
             <Button
+                android:id="@+id/buttonBorisTalkingWithoutDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_boris_TalkingWithoutDetail" />
+
+            <Button
                 android:id="@+id/buttonBorisTigerIntheTank"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -109,6 +115,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_boris_WinWinForAllOfUs" />
+
+            <Button
+                android:id="@+id/buttonBorisUsaVeryEnthusiasticAboutFreeTradeDeal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_boris_UsaVeryEnthusiasticAboutFreeTradeDeal" />
         </LinearLayout>
     </ScrollView>
 

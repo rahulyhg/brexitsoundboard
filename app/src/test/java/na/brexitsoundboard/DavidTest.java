@@ -5,6 +5,7 @@ import org.junit.Test;
 public class DavidTest extends AssertMap {
     @Test
     public void ensureButtonsPlayCorrectSounds() throws Exception {
+        keyValueMap.put(R.id.buttonDavidAgreementWillFavourTheEU, R.raw.david_sound_agreement_will_favour_the_eu);
         keyValueMap.put(R.id.buttonDavidConfidentOfAGoodOutcome, R.raw.david_sound_confident_of_a_good_outcome);
         keyValueMap.put(R.id.buttonDavidConstructiveAmbiguity, R.raw.david_sound_constructive_ambiguity);
         keyValueMap.put(R.id.buttonDavidDifficultToReadWhatWeIntend, R.raw.david_sound_difficult_to_read_what_we_intend);
@@ -15,7 +16,6 @@ public class DavidTest extends AssertMap {
         keyValueMap.put(R.id.buttonDavidNobodyPretendedThisWillBeSimpleOrEasy, R.raw.david_sound_nobody_pretended_this_will_be_simple_or_easy);
         keyValueMap.put(R.id.buttonDavidTimeAsAPressurePoint, R.raw.david_sound_time_as_a_pressure_point);
         keyValueMap.put(R.id.buttonDavidVeryGoodLawyers, R.raw.david_sound_very_good_lawyers);
-
         assertKeyValueMatch();
     }
 }

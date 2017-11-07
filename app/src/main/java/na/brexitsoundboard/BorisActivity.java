@@ -20,10 +20,12 @@ public class BorisActivity extends BrexitSoundboardActivity {
         registerClickListener(R.id.buttonBorisMeetOurObligations);
         registerClickListener(R.id.buttonBorisPoundIsStable);
         registerClickListener(R.id.buttonBorisRightsCompletelyProtected);
+        registerClickListener(R.id.buttonBorisTalkingWithoutDetail);
         registerClickListener(R.id.buttonBorisTigerIntheTank);
         registerClickListener(R.id.buttonBorisVindicatedByHistory);
         registerClickListener(R.id.buttonBorisWeExportTvAerials);
         registerClickListener(R.id.buttonBorisWeightLiftedFromBritishBusiness);
         registerClickListener(R.id.buttonBorisWinWinForAllOfUs);
+        registerClickListener(R.id.buttonBorisUsaVeryEnthusiasticAboutFreeTradeDeal);
     }
 }

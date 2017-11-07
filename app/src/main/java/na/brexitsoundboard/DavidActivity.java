@@ -12,6 +12,7 @@ public class DavidActivity extends BrexitSoundboardActivity {
 
         firebaseWrapper.firebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
+        registerClickListener(R.id.buttonDavidAgreementWillFavourTheEU);
         registerClickListener(R.id.buttonDavidConfidentOfAGoodOutcome);
         registerClickListener(R.id.buttonDavidConstructiveAmbiguity);
         registerClickListener(R.id.buttonDavidDifficultToReadWhatWeIntend);

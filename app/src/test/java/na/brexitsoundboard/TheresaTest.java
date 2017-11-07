@@ -11,7 +11,6 @@ public class TheresaTest extends AssertMap {
         keyValueMap.put(R.id.buttonTheresaNoNeedForAnElection, R.raw.theresa_sound_no_need_for_an_election);
         keyValueMap.put(R.id.buttonTheresaRedWhiteAndBlueBrexit, R.raw.theresa_sound_red_white_and_blue_brexit);
         keyValueMap.put(R.id.buttonTheresaStrongAndStableLeadership, R.raw.theresa_sound_strong_and_stable_leadership);
-
         assertKeyValueMatch();
     }
 }

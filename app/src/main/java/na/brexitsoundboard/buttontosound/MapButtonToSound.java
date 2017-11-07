@@ -27,14 +27,17 @@ public class MapButtonToSound {
         buttonIdToSoundIdMap.put(R.id.buttonBorisMeetOurObligations, R.raw.boris_sound_meet_our_obligations);
         buttonIdToSoundIdMap.put(R.id.buttonBorisPoundIsStable, R.raw.boris_sound_pound_is_stable);
         buttonIdToSoundIdMap.put(R.id.buttonBorisRightsCompletelyProtected, R.raw.boris_sound_rights_completely_protected);
+        buttonIdToSoundIdMap.put(R.id.buttonBorisTalkingWithoutDetail, R.raw.boris_sound_talking_without_detail);
         buttonIdToSoundIdMap.put(R.id.buttonBorisTigerIntheTank, R.raw.boris_sound_tiger_in_the_tank);
         buttonIdToSoundIdMap.put(R.id.buttonBorisVindicatedByHistory, R.raw.boris_sound_vindicated_by_history);
         buttonIdToSoundIdMap.put(R.id.buttonBorisWeExportTvAerials, R.raw.boris_sound_we_export_tv_aerials);
         buttonIdToSoundIdMap.put(R.id.buttonBorisWeightLiftedFromBritishBusiness, R.raw.boris_sound_weight_lifted_from_british_business);
         buttonIdToSoundIdMap.put(R.id.buttonBorisWinWinForAllOfUs, R.raw.boris_sound_win_win_for_all_off_us);
+        buttonIdToSoundIdMap.put(R.id.buttonBorisUsaVeryEnthusiasticAboutFreeTradeDeal, R.raw.boris_sound_usa_very_enthusiastic_about_free_trade_deal);
     }
 
     private void mapDavidButtonsToSounds() {
+        buttonIdToSoundIdMap.put(R.id.buttonDavidAgreementWillFavourTheEU, R.raw.david_sound_agreement_will_favour_the_eu);
         buttonIdToSoundIdMap.put(R.id.buttonDavidConfidentOfAGoodOutcome, R.raw.david_sound_confident_of_a_good_outcome);
         buttonIdToSoundIdMap.put(R.id.buttonDavidConstructiveAmbiguity, R.raw.david_sound_constructive_ambiguity);
         buttonIdToSoundIdMap.put(R.id.buttonDavidDifficultToReadWhatWeIntend, R.raw.david_sound_difficult_to_read_what_we_intend);

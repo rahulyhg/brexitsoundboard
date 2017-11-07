@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Brexit Soundboard</string>
 
     <string name="button_boris">Boris</string>
@@ -20,12 +20,15 @@
     <string name="button_boris_MeetOurObligations">Meet Our Obligations</string>
     <string name="button_boris_PoundIsStable">Pound Is Stable</string>
     <string name="button_boris_RightsCompletelyProtected">Rights Completely Protected</string>
+    <string name="button_boris_TalkingWithoutDetail">Talking Without Detail</string>
     <string name="button_boris_TigerInTheTank">Tiger In The Tank</string>
     <string name="button_boris_VindicatedByHistory">Vindicated By History</string>
     <string name="button_boris_WeExportTvAerials">We Export Tv Aerials</string>
     <string name="button_boris_WeightLiftedFromBritishBusiness">Weight Lifted From British Business</string>
-    <string name="button_boris_WinWinForAllOfUs" tools:ignore="Typos">Win Win For All Of Us</string>
+    <string name="button_boris_WinWinForAllOfUs">Win Win For All Of Us</string>
+    <string name="button_boris_UsaVeryEnthusiasticAboutFreeTradeDeal">USA Enthusiastic About Free Trade</string>
 
+    <string name="button_david_AgreementWillFavourTheEU">Agreement Will Favour The EU</string>
     <string name="button_david_ConfidentOfAGoodOutcome">Confident Of A Good Outcome</string>
     <string name="button_david_ConstructiveAmbiguity">Constructive Ambiguity</string>
     <string name="button_david_DifficultToReadWhatWeIntend">Difficult To Read What We Intend</string>

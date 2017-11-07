@@ -16,8 +16,6 @@ public class LiamTest extends AssertMap {
         keyValueMap.put(R.id.buttonLiamTooLazyAndTooFat, R.raw.liam_sound_too_lazy_and_too_fat);
         keyValueMap.put(R.id.buttonLiamTremendousOpportunitiesOutThere, R.raw.liam_sound_tremendous_opportunities_out_there);
         keyValueMap.put(R.id.buttonLiamWeCantBeBlackmailed, R.raw.liam_sound_we_cant_be_blackmailed);
-        keyValueMap.put(R.id.buttonBoris350MillionPoundsAWeek, R.raw.boris_sound_350_million_pounds_a_week);
-
         assertKeyValueMatch();
     }
 }
